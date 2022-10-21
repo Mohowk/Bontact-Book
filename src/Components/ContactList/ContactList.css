@@ -1,0 +1,32 @@
+ul {
+  width: 450px;
+  border: 5px solid aquamarine;
+  list-style: none;
+  margin: 15px;
+  padding-inline-start: 0;
+  background-color: black;
+}
+ul li {
+  text-align: center;
+  margin: 15px;
+  color: rgb(15, 88, 73);
+  font-size: 25px;
+}
+ul li button {
+  padding: 10px;
+  margin: 10px;
+  background: aqua;
+  color: yellowgreen;
+  border: 2px solid yellowgreen;
+  font-weight: bold;
+}
+ul li button:hover {
+  background: aquamarine;
+  color: burlywood;
+  border: 2px solid ;
+  font-weight: bold;
+}
+img {
+  width: 400px;
+  margin: 0 auto;
+}

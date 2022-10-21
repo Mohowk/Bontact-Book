@@ -1,0 +1,51 @@
+.mainContainer {
+  width: 600px;
+  margin: 150px auto;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid grey;
+  background-color: grey;
+}
+.mainContainer h1 {
+  text-align: center;
+  color: goldenrod;
+  width: 300px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: aquamarine;
+  border: 2px solid yellowgreen;
+}
+
+.mainContainer input {
+  width: 450px;
+  height: 30px;
+  margin: 15px auto;
+  border: 2px solid aquamarine;
+  color: goldenrod;
+  background-color: yellowgreen;
+  padding: 10px;
+}
+.mainContainer input:focus {
+  border: 3px solid aquamarine;
+  background-color: burlywood;
+  color: black;
+}
+.mainContainer span {
+  width: 250px;
+  margin: 30px auto;
+}
+.mainContainer button {
+  width: 100px;
+  background-color: black;
+  color: purple;
+  padding: 10px;
+  text-align: center;
+  margin: 10px 90px;
+  border: 2px solid goldenrod;
+  font-weight: bold;
+}
+.mainContainer button:hover {
+  background-color: goldenrod;
+  color: palegreen;
+  border: 2px solid yellowgreen;
+}
